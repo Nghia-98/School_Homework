@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+h2 {
+    margin: 0 auto;
+    font-size: 35px;
+    margin: 10px;
+}
+    
+    
+.flex-container {
+    /* In order to use flex-box we need to first set our display property */
+    display: flex;
+    /* center the container horizontally */
+    justify-content: center;
+    /* this will center content vertically */
+    align-items: center;
+    /* tells the container to align the children in columns rather than rows */
+}
+
+.flex-column {
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+    /* tells the container to drop down once it reaches max-width */
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    /* height: 252px;
+    width: 252px; */
+}
+
+.form {
+    /* height: 160px;
+    width: 160px;  */
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+}
+
+input {
+    /* font-size: 15px; */
+    text-align: center;
+    margin-bottom: 5px;
+    /* height: 25px;     */
+}
+
+.numSquares {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+/* .flex-wrap-3 {
+    flex-wrap: wrap;
+    height: 252px;
+    width: 252px;
+} 
+
+.flex-wrap-4 {
+    flex-wrap: wrap;
+    height: 252px;
+    width: 252px;
+}
+
+.flex-wrap-5 {
+    flex-wrap: wrap;
+    height: 252px;
+    width: 252px;
+}
+
+.flex-wrap-6 {
+    flex-wrap: wrap;
+    height: 252px;
+    width: 252px;
+} */
+    
+
+.square {
+    border: 1px solid rgba(0, 0, 0, .75);
+    height: 54px;
+    width: 54px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    
+#reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 55px;
+    width: 130px;
+    margin: 10px;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+.red-text {
+    color: red;
+}

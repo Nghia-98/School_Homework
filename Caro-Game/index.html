@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <script defer src="js/main.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+
+
+    <div class="flex-container">
+        <div class="flex-container flex-column">
+            <h2>Type size of the board!</h2>
+            <div class="flex-container flex-wrap" id="board">
+                <!-- <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div> -->
+            </div>
+
+        </div>
+        <div class="col">
+            <h4>Config Game</h3>
+                <div class=" form">
+                    <div class="numSquares">
+                        <div class="input">
+                            <label>Size of the board (3->9): </label>
+                            <input type='number' id='add_num' min="3" max="9">
+                        </div>
+                        <div class="input">
+                            <label>Num tick to win (3->6): </label>
+                            <input type='number' id='add_num_win' min="3" max="6">
+                        </div>
+
+                    </div>
+                    <button id="reset-button">newGame</button>
+                </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
