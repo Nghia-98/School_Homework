@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <canvas id="canvas"></canvas>
+    <div class="form">
+      <p>Please select the mode game you like:</p>
+      <div class='row'>
+        <input type="radio" name="modeGame" value="hitWall" id='mode1'> Mode 1 - Snake can't go through walls<br>
+        <input type="radio" name="modeGame" value="notHitWall" id='mode2'> Mode 2 - Snake can go through walls<br>
+      </div>
+      <button id="reset-button">newGame</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
